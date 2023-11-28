@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className="bg-[url('https://cdn.dooca.store/925/products/whatsapp-image-2021-02-12-at-111933_640x640+fill_ffffff.jpeg?v=1613139636&webp=0')]"}>{children}</body>
     </html>
   )
 }

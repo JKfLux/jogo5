@@ -1,27 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+header{
+  text-align: center;
+  font-size: 100px;;
+  color:red;
+  border-color: black;
+  font-style:normal ;
+  font-weight: bolder;
+  border-style:solid;
+}
+main{
+  background-image: -webkit-linear-gradient();
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+body{
+  background-position:  0% 35%;
+  background-size: cover;
+  background-image: url("https://cdn.dooca.store/925/products/whatsapp-image-2021-02-12-at-111933_640x640+fill_ffffff.jpeg?v=1613139636&webp=0");
 }
